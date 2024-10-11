@@ -19,9 +19,11 @@ options.add_argument("--disable-blink-features=AutomationControlled")  # Evitar 
 # options.add_argument(r"user-data-dir=C:\Users\Contler Elias\OneDrive - AGORA DEU LUCRO EDUCACIONAL LTDA\Área de Trabalho\Perfil_Navegador") # Diretorio do Perfil
 # options.add_argument(r"profile-directory=Profile 10") # Perfil selecionado
 
-login = 'agoradeulucro@maiconsuporti'
-senha = 'Agoradeulucro24@'
-categoria = 'Vendas de Ecommerce'
+# Login ERP 
+login = ''
+senha = ''
+categoria = ''
+
 dia = '10'
 mes = '9'
 ano = '2024'
