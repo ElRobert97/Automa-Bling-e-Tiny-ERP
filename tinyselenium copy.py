@@ -8,13 +8,13 @@ from arquivos_principais.tinyselenium import iniciar, processar_pedidos
 from arquivos_principais.ajustar_planilhas import tratar_magalu
 from selenium import webdriver
 
-
-login = r'fiscal@kibunitinho'
-senha = r'@Contabilidade2024'
+# Login do ERP Tiny
+login = r''
+senha = r''
 categoria = r'Clientes - Revenda de Mercadoria'
 
 caixa_magalu = 'Magalu'
-caminho_magalu = r'Kibunitinho\marketplaces\Magalu.csv'
+caminho_magalu = r''
 planilha_magalu = tratar_magalu(caminho_magalu)
 driver = webdriver.Chrome() 
 iniciar(login,senha, driver=driver)
